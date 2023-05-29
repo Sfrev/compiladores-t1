@@ -36,7 +36,7 @@ def saidaArquivo(nomeArquivo, saida):
 
 def main():
 
-    # Lendo o camino para o arquivo de entrada e de saída passados na linha de comando
+    # Lendo o caminho para o arquivo de entrada e de saída passados na linha de comando
     arquivoEntrada = sys.argv[1]
     arquivoSaida = sys.argv[2]
 
