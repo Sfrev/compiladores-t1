@@ -39,7 +39,14 @@ java -jar <caminho_do_corretor> "<python <caminho_programa>>" gcc <pasta_saidas>
 ```
 2. Certifique-se de substituir `<caminho_do_corretor>`, `<caminho_programa>`, `<pasta_saidas>`, `<pasta_casos_de_teste>` e `<RAs dos integrantes>` pelos respectivos valores específicos do seu ambiente de trabalho.
 
-
-
-
+#### Exemplo 
+```
+java -jar .\compiladores-corretor-automatico-1.0-SNAPSHOT-jar-with-dependencies.jar
+```
+```
+"python C:\Repositorio\Compiladores\compiladores-t1\trabalho1.py"
+```
+```
+gcc C:\Repositorio\Compiladores\compiladores-t1\saidas C:\Repositorio\Compiladores\casos-de-teste RA t1"
+```
 
