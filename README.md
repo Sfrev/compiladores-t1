@@ -23,19 +23,21 @@ pip install antlr4-python3-runtime
 ```
 #### Execução do ANTLR4 no Windows
 Para executar o ANTLR4 no Windows, utilize o seguinte comando no terminal:
+```
 java -jar antlr-4.9.2-complete.jar -Dlanguage=Python3 LA.g4
-
+```
 #### Execução do Código do Trabalho
 Para executar o código do trabalho, utilize o seguinte comando:
+```
 python trabalho1.py <arquivo_entrada> <arquivo_saida>
-
+```
 #### Uso do Corretor
 Para utilizar o corretor, siga as seguintes etapas:
 1. Execute o seguinte comando no terminal para iniciar o corretor:
+```
 java -jar <caminho_do_corretor> "<python <caminho_programa>>" gcc <pasta_saidas> <pasta_casos_de_teste> <RAs dos integrantes> t1"
-
-
-Observação: Certifique-se de substituir `<caminho_do_corretor>`, `<caminho_programa>`, `<pasta_saidas>`, `<pasta_casos_de_teste>` e `<RAs dos integrantes>` pelos respectivos valores específicos do seu ambiente de trabalho.
+```
+2. Certifique-se de substituir `<caminho_do_corretor>`, `<caminho_programa>`, `<pasta_saidas>`, `<pasta_casos_de_teste>` e `<RAs dos integrantes>` pelos respectivos valores específicos do seu ambiente de trabalho.
 
 
 
