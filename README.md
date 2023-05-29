@@ -18,8 +18,9 @@ O analisador tem a finalidade de ler um programa-fonte em LA e gerar uma lista c
 
 #### Instalação do ANTLR4 no Windows
 Para instalar o ANTLR4 no Windows, utilize o seguinte comando no terminal:
+```
 pip install antlr4-python3-runtime
-
+```
 #### Execução do ANTLR4 no Windows
 Para executar o ANTLR4 no Windows, utilize o seguinte comando no terminal:
 java -jar antlr-4.9.2-complete.jar -Dlanguage=Python3 LA.g4
